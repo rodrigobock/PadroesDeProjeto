@@ -12,7 +12,7 @@ package player;
 public interface FormatoAudio {
     
     public void abrir(String filename);
-    public void reproduzir();
+    void reproduzir();
     public void parar();
     
 }

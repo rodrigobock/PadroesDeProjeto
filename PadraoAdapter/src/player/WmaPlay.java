@@ -12,22 +12,23 @@ package player;
 public class WmaPlay {
 
     public void setFile(String file) {
-
+        System.out.println("O arquivo " +file+ " foi selecionado no formato wma");
     }
 
     public void open() {
-
+        System.out.println("Abrindo musica...");
+        this.play();
     }
 
     public void setLocation(int position) {
-
+        System.out.println("Esta musica começou a partir do momento " + position);
     }
 
     public void play() {
-
+        System.out.println("Reproduzindo música.");
     }
 
     public void stop() {
-
+        System.out.println("Musica parada.");
     }
 }
